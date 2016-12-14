@@ -1,25 +1,31 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fddc9c;
+}
+
 /* unvisited link */
 a:link {
     text-decoration: none;
-    color: #000;
+    color: #424242;
 }
 
 /* visited link */
 a:visited {
     text-decoration: none;
-    color: #000;
+    color: #424242;
 }
 
 /* mouse over link */
 a:hover {
     text-decoration: none;
-    color: #000;
+    color: #424242;
 }
 
 /* selected link */
 a:active {
     text-decoration: none;
-    color: #000;
+    color: #424242;
 }
 
 #wrapper{
@@ -35,26 +41,47 @@ a:active {
     position: relative;
 }
 
+/* Header Wrap */
+
+#line {
+    width: 110%;
+    background-color: #212151;
+    left: -5%;
+    height: 60px;
+}
+
 /* Header and Subtitle */
 
 h1 {
     font-family: 'Aref Ruqaa', serif;
+    color: #fff;
 }
 
 #sub {
     font-family: 'Nunito Sans', sans-serif;
-    color: #000;
+    color: #424242;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+#links {
+    position: relative;
+    top: 10px;
 }
 
 /* Class for individual day linkboxes */
 
 .linkbox {
+    display: inline-block;
     font-family: 'Orbitron', sans-serif;
     font-size: 35px;
     width: 80px;
     height: 80px;
     background-color: aquamarine;
     height: 80px;
-    line-height: 80px;
+    line-height: 90px;
     white-space: nowrap;
+    color: #424242;
+    margin: 10px;
 }
