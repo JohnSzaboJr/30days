@@ -1,0 +1,1 @@
+document.title="30 Days of Javascript - Day 1";

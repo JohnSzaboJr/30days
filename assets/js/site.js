@@ -38,7 +38,7 @@ var ids=[];
 // create equal length rows of links
 
 for (var i=1; i<=30; i++) {
-    var x = '<a href="projects/day'+i+'.html"><div class="linkbox center" id="day'+i+'">'+i+'</div></a>';
+    var x = '<a href="projects/day'+i+'/day'+i+'.html"><div class="linkbox center" id="day'+i+'">'+i+'</div></a>';
     ids.push("day"+i);
     links.innerHTML+= x;
     var size = rowSize(30);
