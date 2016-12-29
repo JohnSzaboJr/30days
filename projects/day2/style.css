@@ -34,7 +34,6 @@ body {
 }
 
 #handle1shadow {
-    top: 50%;
     left: 50px;
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -42,7 +41,6 @@ body {
 }
 
 #handle2shadow {
-    top: 50%;
     left: 15px;
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -50,7 +48,6 @@ body {
 }
 
 #handle3shadow {
-    top: 50%;
     left: 80px;
     filter: blur(3px);
     -webkit-filter: blur(3px);

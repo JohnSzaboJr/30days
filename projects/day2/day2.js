@@ -7,7 +7,7 @@ function moveHandles(){
 var d = new Date();
 var s = d.getSeconds();
 var m = d.getMinutes();
-var h = d.getHours() % 12 || 12;;    
+var h = d.getHours() % 12 || 12;   
 
 // converting seconds and minutes to degrees    
 s=s*6;  
@@ -15,9 +15,7 @@ mdeg=m*6;
     
 // converting hours and minutes to hour handle degree position
         
-if (h === 12) {h = 0};
 h = (h*30) + (m/2);
-console.log(h);    
 
 // seconds handle and shadow    
 document.getElementById("handle3shadow").style.transform = 'translateY(-115px) rotate('+ s +'deg)';    
