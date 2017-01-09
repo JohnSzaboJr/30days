@@ -25,9 +25,6 @@ body{
     filter: blur(--blur);
 }
 
-h1 {
-}
-
 .js {
     color: var(--base);
 }
