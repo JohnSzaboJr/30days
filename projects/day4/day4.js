@@ -50,4 +50,21 @@ console.log(mapSolution);
 const sortSolution = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 console.table(sortSolution);
 
+// 4. Exercise Array.prototype.reduce()
+
+const reduceSolution = inventors.reduce((total, item) => {return total + (item.passed - item.year)}, 0);
+console.log(reduceSolution);
+
+// 5. Sort the inventors by years lived
+
+const fiveSolution = inventors.sort((a, b) => (a.passed - a.year) > (b.passed - b.year) ? 1 : -1);
+
+console.table(fiveSolution);
+
+// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// needs to be run on: https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+const wcategory = document.querySelector(".mw-category");
+const links = Array.from(wcategory.querySelectorAll("a"));
+const de = (links.map(link => link.textContent)).filter(streetName => streetName.includes("de"));
 
